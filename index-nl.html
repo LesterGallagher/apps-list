@@ -1,0 +1,22 @@
+---
+title: Work
+layout: default
+lang: nl
+ref: index
+---
+
+<main class="container home">
+    {% for app in site.apps %}
+    <article class="app-item col-xs-12 col-md-6">
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <img src="/assets/img/apps/{{ app.image }}" alt="{{ app.title }} banner">
+            </div>
+            <div class="panel-body" style="height: 124.6px">
+                {{ app.content }}
+                <a target="_blank" href="{{ app.link }}" class="btn btn-warning">Open</a>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</main>

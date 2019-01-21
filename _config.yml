@@ -1,0 +1,76 @@
+---
+title: ESS Apps
+timezone: Europe/Amsterdam
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: page
+    values:
+      layout: "page"
+      permalink: /:slug/:lang
+collections:
+  apps:
+    title: Apps
+    output: true
+volledige-titel: Echo Sierra Studio Apps
+image_src: "/assets/img/image_src.png"
+logo: "/assets/img/image_src.png"
+keywords: Polyism Studio Sem Postma Echo Sierra Studio Web Software
+  Hub Apps
+exclude:
+- vendor
+description: A list of applications and websites from ESS.
+theme_color: "#fb5353"
+baseurl: 
+abbrv: ESS
+dribbble_username: es_studio
+facebook_username: ES-Studio-2052606714783317
+flickr_username: es_studio
+github_username: LesterGallagher
+instagram_username: 
+linkedin_username: 
+pinterest_username: eestudio0040
+twitter_username: esstudio_site
+youtube_username: 9Wereld
+googleplus_username: 
+rss: true
+facebook:
+  app_id: 1015809515263840
+  publisher: 2052606714783317
+  admins: 100028399686104
+webmaster_verifications:
+  google: 
+  bing: 
+  alexa: 
+  yandex: 
+  baidu: 
+twitter:
+  username: esstudio_site
+sass:
+  style: compressed
+  sass_dir: _sass
+url: https://apps.esstudio.site
+enforce_ssl: apps.esstudio.site
+plugins:
+- jekyll-feed
+- jekyll-gist
+- jekyll-sitemap
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+theme: minima
+author: Sem Postma
+designer: Sem Postma
+humanstxt_author:
+  name: Sem Postma
+  from: Oosterhout, Noord Brabant, The Netherlands
+  role: Developer
+  email: sem.postma@gmail.com
+humanstxt_designer:
+  name: Sem Postma
+  from: Oosterhout, Noord Brabant, The Netherlands
+  role: Developer
+  email: sem.postma@gmail.com
+google_analytics: UA-90014538-4
